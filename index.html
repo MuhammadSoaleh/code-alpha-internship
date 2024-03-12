@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+
+    <style>
+        body
+        {
+            text-align: center;
+            background-color: darkcyan;
+        }
+
+        .btn
+        {
+            background-color: red;
+            border: none;
+            color: white;
+            border-radius: 2px;
+            margin-left: 5px;
+        }
+        .btn1
+        {
+            background-color: green;
+            border: none;
+            color: white;
+            border-radius: 2px;
+            margin-left: 5px;
+          
+        }
+
+        #but
+        {
+background-color: red;
+border: none;
+color: white;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+
+        }
+
+        #but1
+        {
+            background-color:yellow;
+            color: black;
+            border-radius: 5px;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        li
+        {
+            list-style-type: none;
+        }
+
+      
+    </style>
+</head>
+<body>
+
+        <div class="main">
+    <div>
+
+
+    <input type="text" id="toDo" placeholder="Enter your item">
+    <button onclick="todoList()" id="but">Add Item</button>
+    <button onclick="delAll()" id="but1">Delete All</button>
+</div>
+
+<div>
+
+
+    <ul id="list">
+
+    </ul>
+</div>
+
+</div>
+
+</body>
+</html>
